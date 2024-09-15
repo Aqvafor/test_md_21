@@ -123,6 +123,44 @@ DHCP — это протокол прикладного уровня, котор
 
 ![Screenshot 22](part7-nvim.png)
 
+- Выход без сохранения:
+`vim test_vim.txt` Для выхода без сохранения: `esc` + `:q!`
+
+![Screenshot 20](vim_n.png)
+
+`nano test_nano.txt` Для выхода без сохранения: `ctrl+x` + `n` + `enter`
+
+![Screenshot 21](nano_w.png)
+
+`nvimtest_nvim.txt` Для выхода без сохранения: `esc` + `:q!`
+
+![Screenshot 22](nvim_n.png)
+
+- Поиск слова:
+`vim test_vim.txt` Для поиска слова: `esc` + `/`
+
+![Screenshot 20](vim_search.png)
+
+`nano test_nano.txt` Для поиска слова: `ctrl+w` + `enter`
+
+![Screenshot 21](nano_search.png)
+
+`nvimtest_nvim.txt` Для поиска слова: `esc` + `/`
+
+![Screenshot 22](neovim_search.png)
+
+- Поиск слова:
+`vim test_vim.txt` Для поиска и замены слова: `esc` + `:%s/старое_слово/новое_слово/g`
+
+![Screenshot 20](part7-vim.png)
+
+`nano test_nano.txt` Для поиска и замены слова: `Ctrl+\` + `посик слова` + `новое слово` + `enter` 
+
+![Screenshot 21](part7-nano.png)
+
+`nvimtest_nvim.txt` Для поиска и замены слова: `esc` + `:%s/старое_слово/новое_слово/g`
+
+![Screenshot 22](part7-nvim.png)
 
 # Part 8. Установка и базовая настройка сервиса SSHD.
 
