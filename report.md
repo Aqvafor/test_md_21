@@ -152,15 +152,20 @@ DHCP — это протокол прикладного уровня, котор
 - Поиск слова:
 `vim test_vim.txt` Для поиска и замены слова: `esc` + `:%s/старое_слово/новое_слово/g`
 
-![Screenshot 20](part7-vim.png)
+![Screenshot 20](vim_replace1.png)
+![Screenshot 20](vim_replace2.png)
 
 `nano test_nano.txt` Для поиска и замены слова: `Ctrl+\` + `посик слова` + `новое слово` + `enter` 
 
-![Screenshot 21](part7-nano.png)
+![Screenshot 21](nano_replace1.png)
+![Screenshot 21](nano_replace2.png)
+![Screenshot 21](nano_replace3.png)
+![Screenshot 21](nano_replace4.png)
 
 `nvimtest_nvim.txt` Для поиска и замены слова: `esc` + `:%s/старое_слово/новое_слово/g`
 
-![Screenshot 22](part7-nvim.png)
+![Screenshot 22](nvim_replace1.png)
+![Screenshot 22](nvim_replace2.png)
 
 # Part 8. Установка и базовая настройка сервиса SSHD.
 
